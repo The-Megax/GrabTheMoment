@@ -43,8 +43,14 @@
     <Compile Include="Api\Dropbox_oauth1.cs" />
     <Compile Include="Api\NativeWin32.cs" />
     <Compile Include="Api\OAuthBase.cs" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Logger\Log.cs" />
     <Compile Include="Runtime.cs" />
@@ -62,11 +68,5 @@
     <Folder Include="Config\" />
     <Folder Include="Logger\" />
     <Folder Include="Linux\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
   </ItemGroup>
 </Project>
