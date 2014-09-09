@@ -5,6 +5,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 using System.Web;
+using GrabTheMoment.Framework.Logger;
 using GrabTheMoment.Framework.Properties;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;

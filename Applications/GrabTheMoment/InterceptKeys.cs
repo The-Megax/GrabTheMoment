@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 #if __MonoCS__
 using GrabTheMoment.Framework.Linux;
 #endif
+using GrabTheMoment.Framework.Logger;
 using GrabTheMoment.Framework.Properties;
 
 namespace GrabTheMoment

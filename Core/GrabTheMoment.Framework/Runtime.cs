@@ -2,6 +2,7 @@
 using System;
 using System.Text;
 using System.Runtime.InteropServices;
+using GrabTheMoment.Framework.Logger;
 
 namespace GrabTheMoment.Framework
 {

@@ -7,6 +7,7 @@ using System.Web;
 using System.Collections.Specialized;
 using System.Xml;
 using GrabTheMoment.Framework.Api;
+using GrabTheMoment.Framework.Logger;
 using GrabTheMoment.Framework.Properties;
 
 namespace GrabTheMoment.Savemode

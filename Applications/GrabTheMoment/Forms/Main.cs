@@ -4,6 +4,7 @@ using System.Windows.Forms;
 #if __MonoCS__
 using System.ComponentModel;
 #endif
+using GrabTheMoment.Framework.Logger;
 using GrabTheMoment.Framework.Properties;
 
 namespace GrabTheMoment

@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using GrabTheMoment.Framework.Api;
+using GrabTheMoment.Framework.Logger;
 
 namespace GrabTheMoment.Framework.Linux
 {
