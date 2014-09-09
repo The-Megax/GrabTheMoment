@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using GrabTheMoment.Framework.Api;
-using GrabTheMoment.Properties;
+using GrabTheMoment.Framework.Properties;
 
 namespace GrabTheMoment.Savemode.Forms
 {

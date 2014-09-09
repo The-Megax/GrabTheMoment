@@ -1,7 +1,7 @@
-﻿using GrabTheMoment.Properties;
-using System;
+﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using GrabTheMoment.Framework.Properties;
 #if __MonoCS__
 using Notifications;
 #endif

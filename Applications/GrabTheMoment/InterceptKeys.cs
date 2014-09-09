@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 #if __MonoCS__
 using GrabTheMoment.Framework.Linux;
 #endif
-using GrabTheMoment.Properties;
+using GrabTheMoment.Framework.Properties;
 
 namespace GrabTheMoment
 {
