@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrabTheMoment", "GrabTheMoment\GrabTheMoment.csproj", "{832057F3-0B1B-456E-AC8D-682D266BFADC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{17DEB50F-AE6A-4384-87B8-4E748AC55ECC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gameshot", "Gameshot\Gameshot.csproj", "{1250E2BA-0C74-4BAF-962A-D57D77CD1D08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrabTheMoment.Framework", "Core\GrabTheMoment.Framework\GrabTheMoment.Framework.csproj", "{A0FABB3B-A942-435E-8DBB-5A6EB80783EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrabTheMoment.Framework", "..\..\..\..\..\..\media\Linux\Project\Github\The-Megax\GrabTheMoment\GrabTheMoment.Framework\GrabTheMoment.Framework.csproj", "{A0FABB3B-A942-435E-8DBB-5A6EB80783EC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{5ABE7DA9-F0D3-4146-9FFF-5C03A382CB71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gameshot", "Applications\Gameshot\Gameshot.csproj", "{1250E2BA-0C74-4BAF-962A-D57D77CD1D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrabTheMoment", "Applications\GrabTheMoment\GrabTheMoment.csproj", "{832057F3-0B1B-456E-AC8D-682D266BFADC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,8 +30,13 @@ Global
 		{A0FABB3B-A942-435E-8DBB-5A6EB80783EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0FABB3B-A942-435E-8DBB-5A6EB80783EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0FABB3B-A942-435E-8DBB-5A6EB80783EC} = {17DEB50F-AE6A-4384-87B8-4E748AC55ECC}
+		{1250E2BA-0C74-4BAF-962A-D57D77CD1D08} = {5ABE7DA9-F0D3-4146-9FFF-5C03A382CB71}
+		{832057F3-0B1B-456E-AC8D-682D266BFADC} = {5ABE7DA9-F0D3-4146-9FFF-5C03A382CB71}
+	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = GrabTheMoment\GrabTheMoment.csproj
+		StartupItem = Applications\GrabTheMoment\GrabTheMoment.csproj
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = None
