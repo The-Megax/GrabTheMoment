@@ -4,10 +4,9 @@ using System.IO;
 using System.Threading;
 using System.Drawing.Imaging;
 using System.Collections.Generic;
+using GrabTheMoment.Forms;
 using Gtk;
 using Gdk;
-
-using System.Runtime.InteropServices;
 
 namespace GrabTheMoment.Linux
 {
@@ -65,6 +64,17 @@ namespace GrabTheMoment.Linux
             menuItemShowMainWindow.Activated += delegate
             {
                 InterceptKeys.windowsformoscucc.SetWindowState(System.Windows.Forms.FormWindowState.Normal);
+            };
+
+            ImageMenuItem menuItemShowSettings = new ImageMenuItem("Show settings");
+            //Gtk.Image appimg = new Gtk.Image(Stock.Info, IconSize.Menu);
+            //menuItemShowSettings.Image = appimg;
+            popupMenu.Add(menuItemShowSettings);
+
+            menuItemShowSettings.Activated += delegate
+            {
+                SettingsForm form = new SettingsForm();
+                System.Windows.Forms.Application.Run(form); // Így normálisan lefut.
             };
 
             SeparatorMenuItem separator = new SeparatorMenuItem();

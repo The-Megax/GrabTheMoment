@@ -35,7 +35,7 @@
 #endif
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
 #if !__MonoCS__
-            this.lastLinkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.settingsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
 #endif
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -77,20 +77,19 @@
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
 #if !__MonoCS__
-            this.lastLinkToolStripMenuItem,
+            this.settingsToolStripMenuItem1,
 #endif
             this.exitToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(118, 48);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(118, 70);
             // 
-            // lastLinkToolStripMenuItem
+            // settingsToolStripMenuItem1
             // 
 #if !__MonoCS__
-            this.lastLinkToolStripMenuItem.Enabled = false;
-            this.lastLinkToolStripMenuItem.Name = "lastLinkToolStripMenuItem";
-            this.lastLinkToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.lastLinkToolStripMenuItem.Text = "Last link";
-            this.lastLinkToolStripMenuItem.Click += new System.EventHandler(this.lastLinkToolStripMenuItem_Click);
+            this.settingsToolStripMenuItem1.Name = "settingsToolStripMenuItem1";
+            this.settingsToolStripMenuItem1.Size = new System.Drawing.Size(117, 22);
+            this.settingsToolStripMenuItem1.Text = "Settings";
+            this.settingsToolStripMenuItem1.Click += new System.EventHandler(this.settingsToolStripMenuItem1_Click);
 #endif
             // 
             // exitToolStripMenuItem
@@ -332,11 +331,11 @@
         private System.Windows.Forms.CheckBox FtpClipboard;
         private System.Windows.Forms.CheckBox DropboxClipboard;
         private System.Windows.Forms.CheckBox ImgurClipboard;
-#if !__MonoCS__
-        public System.Windows.Forms.ToolStripMenuItem lastLinkToolStripMenuItem;
-#endif
         private System.Windows.Forms.Label VersionLabel1;
         private System.Windows.Forms.Label VersionLabel2;
+#if !__MonoCS__
+        private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem1;
+#endif
     }
 }
 
